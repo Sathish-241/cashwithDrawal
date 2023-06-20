@@ -1,0 +1,67 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  background-color: #150b3e;
+  border: none;
+  border-radius: 12px;
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-name-container {
+  display: flex;
+
+  align-items: center;
+}
+.profile-emoji {
+  background-color: #c7d2fe;
+  color: #382f5a;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 13px;
+}
+.profile-name {
+  font-family: Roboto;
+  color: #c7d2fe;
+  margin-left: 40px;
+  font-size: 28px;
+}
+.balance-title {
+  color: #585076;
+  font-family: Roboto;
+  font-size: 24px;
+}
+.balance-text,
+.choose-text {
+  color: #585076;
+  font-family: Roboto;
+}
+.balance-amount {
+  font-family: Roboto;
+  color: #c7d2fe;
+  font-size: 28px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.withdraw-text {
+  font-family: Roboto;
+  color: #c7d2fe;
+  font-size: 28px;
+}
+.denominations-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
